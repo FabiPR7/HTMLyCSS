@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cuadro{
+    background-color: rgb(5, 53, 71);
+    text-align: center;
+    color: white;
+    padding: 5rem;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    align-items: center;
+    justify-content: center;
+}
+#texto{
+    grid-column: 1 / 3
+ 
+}
+h5{
+    opacity: 50%;
+}
+#stops{
+grid-column: 1/2;
+}
+#km{
+    grid-column: 2/3;
+}
+.pro{
+    font-size: 150%;
+    font-weight: bold;
+}
+#kcal{
+   grid-column: 1 / 3;
+    padding: 1rem 0rem 1rem 0rem;
+    grid-area: "kcal";
+    margin: 5px auto;
+    align-self: center;
+    border-radius: 150%;
+    width: 7rem;
+    border: 5px solid rgb(47, 255, 168);
+}
+.otros{
+    padding: 2rem;
+    border-radius: 150%;
+    border: 5px solid lightskyblue;
+}

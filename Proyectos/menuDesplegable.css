@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    transition: all 1000ms ease;
+}
+li {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+ul {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul:hover{
+    text-decoration: underline 5px solid black;
+}
+.menu:hover {
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,27 @@
+body{
+background-color:#315f81;
+
+font-size: 150%;
+}
+.menu{
+    background-color: black;
+    display: inline-flex;
+    left: 250px;
+    position: fixed;
+}
+.menu a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+.redes a{
+    position: static;
+    color: black;
+}
+.redes a:hover{
+    color: white;
+}

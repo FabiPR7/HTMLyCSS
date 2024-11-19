@@ -1,0 +1,51 @@
+.padre{
+    background-color: darkseagreen;
+    border: 1px solid black ;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+}
+.hijo:hover{
+    background-color: black;
+    color: white;
+    align-self: center;
+}
+.hijo{
+    background-color: darkseagreen;
+    padding: 20%;
+    
+}
+        .hijo1{
+            flex-grow: 1;
+        order:1;
+        padding-right: 22px;
+        }
+        
+        .hijo2{
+            flex-grow: 1;
+            order : 5;
+            padding-right: 19px;
+            }
+         .hijo3{
+            flex-grow: 1;
+         order: 7; 
+         padding-right: 30px;
+        }
+        .hijo4{
+            flex-grow: 1;
+            order : 3;
+            padding-right: 20px;
+            }
+            .hijo5{
+                flex-grow: 1;
+                order: 6;
+                padding-right: 20px;
+                }

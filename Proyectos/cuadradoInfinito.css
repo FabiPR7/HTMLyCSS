@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(15, 14, 14);
+}
+
+.p1{
+    position: relative;
+    left: 450px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    border: 5px dashed salmon;
+    align-items: center;
+    justify-content: center;
+    animation: girar 5000ms infinite;
+}
+.p2{
+    border: 5px dotted greenyellow;
+    margin: 23px;
+    width: 150px;
+    height: 150px;
+}
+.p3{
+    margin: 23px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(152, 170, 47);
+}
+
+
+@keyframes girar {
+    0%{
+        transform: rotate(0deg) scale(1);
+    }
+    50%{
+       transform: rotate(360deg) scale(2); 
+    }
+    100%{
+        transform: rotate(0deg) scale(1);
+    }
+    
+}

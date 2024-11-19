@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+
+}
+
+.card {
+    display: grid;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(244,244,244,1) 53%, rgba(255,6,0,1) 100%); 
+    border: 5px solid rgb(189, 32, 32);
+    border-radius: 15px;
+    width: 400px;
+    grid-template-areas:
+        "button1 photo button2"
+        "texts texts texts";
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    column-gap: 25px;
+    height: 400px;
+}
+label{
+    font-size: 300%;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(228, 232, 235,0.2);
+}
+label:hover{
+    background-color: rgb(228, 232, 235);
+}
+img {
+    grid-area: photo;
+    width: 250px;
+    height: 250px;
+}
+
+.label1 {
+    grid-area: button1;
+}
+
+.labe2 {
+    grid-area: button2;
+}
+
+h3 {
+    grid-area: texts;
+    font-size: 200%;
+}

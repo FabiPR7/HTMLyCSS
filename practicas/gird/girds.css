@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(3,1fr) ;
+grid-template-rows: repeat(6,1fr)  ;
+background-color: rgb(5, 5, 5);
+gap: 1px 1px;
+grid-template-areas: 
+'inicio inicio inicio'
+'inicio inicio inicio'
+'Proyecto pendientes correo'
+'Proyecto perfil perfil'
+'Proyecto perfil perfil';
+
+}
+.secciones{
+   text-align: center;
+    border: 1px solid black;
+    background-color: azure;
+}
+.secciones1{
+    grid-area: inicio;
+    border: 1px solid black;
+    background-color: azure;
+}
+.secciones2{
+   grid-area: Proyecto;
+    border: 1px solid black;
+    background-color: azure;
+}
+.secciones3{
+   grid-area: pendientes;
+    border: 1px solid black;
+    background-color: azure;
+}
+.secciones4{
+    grid-area: perfil;
+    border: 1px solid black;
+    background-color: azure;
+}
+.secciones5{
+  
+    grid-area: correo;
+    border: 1px solid black;
+    background-color: azure;
+}
+.secciones:hover{
+    transform: scale(1.1);
+    box-shadow: -10px 1px 100px 2px yellow;
+    transition: transform 1000ms;
+transition-timing-function: ease-in;
+
+}

@@ -1,0 +1,107 @@
+
+/* ******MENU****** */
+.menu{
+    background-color: white;
+    overflow: hidden;
+display: grid;
+position: fixed;
+top: 0px;
+left: 0px;
+grid-template-columns: repeat(16,1fr);
+border-bottom: 1px solid black;
+height: 60px;
+width: 100%;
+align-content: center;
+z-index: 1000;
+grid-template-areas: 'menus live push link shop packs helps more spaces spaces spaces spaces try try account log';
+}
+.secciones{
+    position: relative;
+   
+    padding: 10px;
+    top: 16px;
+    
+
+}
+.secciones:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: transform 1000s;
+}
+.seccion1{
+    grid-area: menus;
+    order:1;
+}
+.seccion2{
+    grid-area: live;
+    order:2;
+}
+.seccion3{
+    grid-area: push;
+    order:3;
+}
+.seccion4{
+    grid-area: link;
+    order:4;
+}
+.seccion5{
+    grid-area: shop;
+    order:5;
+}
+.seccion6{
+    grid-area: packs;
+    order:6;
+}
+.seccion7{
+    grid-area: helps;
+    order:7;
+}
+.seccion8{
+    grid-area: more;
+    order:9;
+}
+.seccion9{
+    grid-area: try;
+    order:10;
+    color: blue;
+}
+.seccion10{
+    grid-area: account;
+    order:11;
+}
+.seccion11{
+    grid-area: log;
+    order:8;
+}
+.seccion12{
+    grid-area: spaces;
+}
+/**+++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++Centro+++++++++++++++++*/
+
+.menu2{
+position: relative;
+height: 560px;
+display: inline-flex;
+top: 70px;
+width: 100%;
+overflow: hidden;
+}
+.ssecciones2{
+    padding: 10px;
+}
+.foto{
+    position: relative;
+    top: 10%;
+    left: 20%;
+    height: 120px;
+    width: 40px;
+}
+.texo{
+    position: relative;
+    top: 67%;
+    left: 15%;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.barra{
+    background-color: khaki;
+    width: 100%;
+    overflow: hidden;
+}
+.mensaje{
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    animation: mover 5000ms infinite cubic-bezier(.02,.32,.99,.64);
+}
+
+@keyframes mover {
+    0%{left: -600px;}
+    100%{left: 1200px}
+}
